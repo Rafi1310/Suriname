@@ -1,0 +1,21 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.title{
+    border: 2px solid green;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+    background-color: #33EE05;
+}
+
+li{
+    margin: 2em;
+}
