@@ -1,24 +1,26 @@
-h1{
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: fantasy;
-}
-
-.title{
+    font-family: Arial, Helvetica, sans-serif;
     border: 2px solid green;
+    background-color: #33EE05;
+    margin: 0em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    margin-bottom: 10px;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: center;
     border: 2px solid green;
-    background-color: #33EE05;
+    background-color: #1b7605;
+    margin-bottom: 0px;
 }
 
 li{
     margin: 2em;
-    text-decoration: none;
 }
 
 .button {
@@ -35,4 +37,70 @@ li{
     background: #33EE05;
     color: darkgreen;
     border-color: green;
+}
+
+.titelfotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    background-color: #33EE05;
+    padding: 1.3em;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    background-color: green;
+    color: lightgreen;
+    transition: all 250ms;
+}
+
+a:hover {
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+}
+
+.foto {
+    width: 475px;
+    height: 475px;
+    display: flex;
+    padding: 5px;
+    display: inline;
+}
+
+.foto:hover {
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+
+body {
+    background-color: #E6FFE9;
+}
+
+div {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.section1 h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.section1 p{
+    display: flex;
+    justify-content: right;
+}
+
+.section1 img {
+    width: 600px;
+    height: 300px;
 }
