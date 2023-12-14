@@ -54,6 +54,7 @@ li{
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     border: 2px solid green;
     padding: 0.5em;
     border-radius: 0.2em;
@@ -126,8 +127,25 @@ body {
 
 .section2 img {
     width: 600px;
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
+}
+
+.div3 {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.section3 h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.section3 p {
+    display: flex;
+    padding: 1.1em;
 }
 
 .titelverblijf {
@@ -150,4 +168,38 @@ body {
     padding: 1.3em;
     margin-top: 0em;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.divverblijf1 {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.sectionverblijf1 h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.sectionverblijf1 p {
+    display: flex;
+    padding: 1.1em;
+}
+
+.divverblijf2 {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.sectionverblijf2 h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.sectionverblijf2 p {
+    display: flex;
+    padding: 1.1em;
 }
