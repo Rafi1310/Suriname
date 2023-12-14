@@ -20,7 +20,7 @@ ul {
     list-style: none;
 }
 
-li{
+li {
     margin: 2em;
 }
 
@@ -86,21 +86,26 @@ body {
 }
 
 .div1 {
-    border: 2px solid black;
-    border-radius: 20px;
+    display: flex;
 }
 
-.section1 h1{
+.section1 {
+    border: 2px solid black;
+    border-radius: 50px;
+    display: block;
+}
+
+.section1 h1 {
     display: flex;
     justify-content: center;
     font-weight: 600;
     font-size: 2em;
 }
 
-.section1 p{
+.section1 p {
     display: flex;
     justify-content: right;
-    text-align: center;
+    text-align: left;
 }
 
 .section1 img {
@@ -108,9 +113,15 @@ body {
     height: 300px;
     border-radius: 20px;
 }
+
 .div2 {
+    display: flex;
+}
+
+.section2 {
     border: 2px solid black;
     border-radius: 50px;
+    display: block;
 }
 
 .section2 h1 {
@@ -136,7 +147,7 @@ body {
     border-radius: 50px;
 }
 
-.section3 h1{
+.section3 h1 {
     display: flex;
     justify-content: center;
     font-weight: 600;
