@@ -1,14 +1,5 @@
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid green;
-    background-color: #33EE05;
-    margin: 0em;
-    padding-top: 1.3em;
-    padding-bottom: 1.3em;
-    margin-bottom: 10px;
+body {
+    background-color: #E6FFE9;
 }
 
 ul {
@@ -22,17 +13,6 @@ ul {
 
 li {
     margin: 2em;
-}
-
-.titelfotos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid green;
-    background-color: #33EE05;
-    padding: 1.3em;
-    margin-top: 0px;
 }
 
 a {
@@ -52,6 +32,30 @@ a:hover {
     border: 2px solid darkgreen;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    background-color: #33EE05;
+    margin: 0em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    margin-bottom: 10px;
+}
+
+.titelfotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    background-color: #33EE05;
+    padding: 1.3em;
+    margin-top: 0px;
+}
+
 .foto {
     width: 475px;
     height: 475px;
@@ -63,10 +67,6 @@ a:hover {
 .foto:hover {
     transform: scale(1.05);
     transition: all 250ms;
-}
-
-body {
-    background-color: #E6FFE9;
 }
 
 .div1 {
