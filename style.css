@@ -32,7 +32,7 @@ a:hover {
     border: 2px solid darkgreen;
 }
 
-.title {
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,15 +45,9 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.titelfotos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid green;
-    background-color: #33EE05;
-    padding: 1.3em;
-    margin-top: 0px;
+footer {
+    background-color: lightgreen;
+    margin-bottom: 2em;
 }
 
 .foto {
@@ -69,7 +63,7 @@ a:hover {
     transition: all 250ms;
 }
 
-.div1 {
+.section1 div {
     display: flex;
 }
 
@@ -102,7 +96,7 @@ a:hover {
     padding-right: 1.5em;
 }
 
-.div2 {
+.section2 div {
     display: flex;
 }
 
@@ -134,7 +128,7 @@ a:hover {
     padding-left: 1.5em;
 }
 
-.div3 {
+.section3 div {
     border: 2px solid black;
     border-radius: 50px;
 }
@@ -151,29 +145,7 @@ a:hover {
     padding: 1.1em;
 }
 
-.titelverblijf {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid green;
-    background-color: #33EE05;
-    padding: 1.3em;
-    margin-top: 0em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.titelinfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid green;
-    background-color: #33EE05;
-    padding: 1.3em;
-    margin-top: 0em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.divverblijf1 {
+.sectionverblijf2 div {
     border: 2px solid black;
     border-radius: 50px;
 }
@@ -190,7 +162,7 @@ a:hover {
     padding: 1.1em;
 }
 
-.divverblijf2 {
+.sectionverblijf1 div {
     border: 2px solid black;
     border-radius: 50px;
 }
@@ -241,7 +213,7 @@ a:hover {
     padding-right: 1.5em;
 }
 
-.divinfo1 {
+.sectioninfo1 div {
     display: flex;
 }
 
@@ -274,7 +246,7 @@ a:hover {
     border-radius: 20px;
 }
 
-.divinfo2 {
+.sectioninfo2 div {
     display: flex;
 }
 
@@ -306,6 +278,7 @@ a:hover {
     padding-right: 1.5em;
 }
 
-.divinfo3 {
+.sectioninfo3 div {
     display: flex;
 }
+
